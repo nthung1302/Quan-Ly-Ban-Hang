@@ -1,0 +1,19 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --watch . --exec \"electron .\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^38.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "nodemon": "^3.1.10"
+  }
+}
